@@ -1,4 +1,4 @@
-# TempApp
+# Django simple Login and Registration
 
 This repository is a fork from [User-Authentication-and-User-Signup-in-Python-using-Django](https://github.com/yeole-rohan/User-Authentication-and-User-Signup-in-Python-using-Django-/tree/main).
 
