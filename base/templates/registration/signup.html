@@ -1,0 +1,14 @@
+{% extends '../base.html' %} 
+{% block title %}Registation{% endblock %}
+{% block content %}
+<div class="shadow-wrap">
+ <div class="form-wrap">
+  <h3>Signup </h3>
+<form action="{% url 'base:signup' %}" method="post">
+    {% csrf_token %} {{form.as_p}}
+    <button type="submit">Submit</button>
+</form>
+<a class="signup-link" href="{% url "base:login" %}">Login</a>
+</div>
+</div>
+{% endblock %}
